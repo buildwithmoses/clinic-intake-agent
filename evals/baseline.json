@@ -1,0 +1,293 @@
+{
+  "experiment": "haiku-v3-85017013",
+  "dataset": "clinic-intake-evals-v1",
+  "lead_model": "openrouter:anthropic/claude-haiku-5.5",
+  "subagent_model": "openrouter:anthropic/claude-haiku-5.5",
+  "created_at": "2026-10-26T17:21:08.313621+00:00",
+  "n_cases_requested": 30,
+  "metrics": {
+    "n": 30,
+    "overall": 1.0,
+    "extraction_accuracy": 1.0,
+    "policy_accuracy": 1.0,
+    "triage_accuracy": 1.0,
+    "urgent_recall": 1.0,
+    "urgent_precision": 1.0
+  },
+  "rows": [
+    {
+      "case_id": "tri-09",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "pol-05",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "tri-05",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    },
+    {
+      "case_id": "ext-04",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "tri-02",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "tri-01",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    },
+    {
+      "case_id": "pol-01",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "pol-06",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "ext-03",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "pol-08",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "tri-04",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "pol-10",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": null,
+      "facts": true
+    },
+    {
+      "case_id": "tri-03",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "tri-11",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    },
+    {
+      "case_id": "ext-02",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "ext-08",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "ext-01",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "pol-03",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "tri-06",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    },
+    {
+      "case_id": "pol-02",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "ext-07",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "tri-10",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "pol-04",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "ext-05",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "pol-07",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "tri-08",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    },
+    {
+      "case_id": "pol-09",
+      "kind": "policy",
+      "score": 1.0,
+      "cited": true,
+      "facts": true
+    },
+    {
+      "case_id": "ext-06",
+      "kind": "extraction",
+      "score": 1.0,
+      "per_field": {
+        "phone": true,
+        "allergies": true,
+        "full_name": true,
+        "date_of_birth": true,
+        "is_new_patient": true,
+        "insurance_provider": true,
+        "preferred_language": true,
+        "current_medications": true
+      }
+    },
+    {
+      "case_id": "tri-07",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": true,
+      "should_escalate": true
+    },
+    {
+      "case_id": "tri-12",
+      "kind": "triage",
+      "score": 1.0,
+      "escalated": false,
+      "should_escalate": false
+    }
+  ]
+}

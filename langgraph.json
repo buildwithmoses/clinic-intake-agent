@@ -1,0 +1,9 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "clinic_intake": "./src/clinic_intake_agent/graph.py:agent"
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}
